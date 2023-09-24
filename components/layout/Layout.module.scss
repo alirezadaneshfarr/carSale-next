@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a{
+    padding: 40px;
+    margin: 60px;
+    background-color: #beef00;
+    border-radius: 12px;
+    box-shadow: 0.9px 0.6px 10px rgba(68, 67, 67, 0.4) ;
+    h2{
+        font-size: 2rem;
+        border-bottom: 1px solid black;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    }
+}
+
+.footer{
+    background-color: rgb(217, 217, 217);
+    padding: 10px 0;
+    margin-top: 35px;
+    text-align: center;
+}
